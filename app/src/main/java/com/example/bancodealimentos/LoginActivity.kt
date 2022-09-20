@@ -1,5 +1,6 @@
 package com.example.bancodealimentos
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -28,7 +29,29 @@ class LoginActivity : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_login)
     }
 
+    fun login(view : View?){
+
+        var emailStr = binding.editTextTextEmailLogin.text.toString()
+        var pwdStr = binding.editTextTextPassword.text.toString()
+        var authTask = Firebase.auth.signInWithEmailAndPassword(emailStr, pwdStr)
+
+        authTask.addOnCompleteListener(this) { resultado ->
+
+            if(resultado.isSuccessful){
+
+                Toast.makeText(this, "LOGIN EXITOSO", Toast.LENGTH_SHORT).show()
+            } else {
+
+                Toast.makeText(this, "ERROR EN LOGIN", Toast.LENGTH_SHORT).show()
+                Log.e("FIREBASE-DEV", "error: ${resultado.exception?.message}")
+            }
+        }
+    }
+
     fun clickTextViewRegister(view: View?) {
+        val intent = Intent(this, RegistroActivity::class.java)
+        startActivity(intent)
+        /*
         var emailStr = binding.editTextTextPersonName.text.toString()
         var pwdStr = binding.editTextTextPassword.text.toString()
         var authTask = Firebase.auth.createUserWithEmailAndPassword(emailStr, pwdStr)
@@ -44,7 +67,7 @@ class LoginActivity : AppCompatActivity() {
                 Log.wtf("FIREBASE-DEV", "error: ${resultado.exception}")
             }
         }
-        /*
+        // -------------------------------------------------------------------------
         // vamos a guardar perritos (obviamente)
         // la info se guarda por medio de hashmaps
 
