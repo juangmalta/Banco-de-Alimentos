@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "355361996434",
+    "project_id": "bancoalimentos-ae499",
+    "storage_bucket": "bancoalimentos-ae499.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355361996434:android:d63e24b36bf58cef83b04b",
+        "android_client_info": {
+          "package_name": "com.example.bancodealimentos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355361996434-u2infqq01ejlaerfinmshmo90d5g0poh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6y8e0q1w6Rz6UwxwFv4c7mXjFS9aFQ3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355361996434-u2infqq01ejlaerfinmshmo90d5g0poh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
