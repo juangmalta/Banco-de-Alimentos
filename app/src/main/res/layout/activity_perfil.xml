@@ -42,7 +42,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/botonIniciarSesion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="72dp"
@@ -70,9 +70,9 @@
         android:layout_marginTop="28dp"
         android:backgroundTint="#FA0000"
         android:text="Mis donaciones"
-        app:layout_constraintEnd_toEndOf="@+id/button2"
-        app:layout_constraintStart_toStartOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintEnd_toEndOf="@+id/botonIniciarSesion"
+        app:layout_constraintStart_toStartOf="@+id/botonIniciarSesion"
+        app:layout_constraintTop_toBottomOf="@+id/botonIniciarSesion" />
 
     <Button
         android:id="@+id/button5"
