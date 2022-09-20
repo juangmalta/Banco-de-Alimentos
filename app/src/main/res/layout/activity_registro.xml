@@ -82,6 +82,7 @@
         android:ems="10"
         android:hint="Email o celular"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
         tools:layout_editor_absoluteX="100dp"
         tools:layout_editor_absoluteY="161dp" />
 
@@ -100,6 +101,7 @@
         android:ems="10"
         android:hint="Nombre Completo"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
         tools:layout_editor_absoluteX="101dp"
         tools:layout_editor_absoluteY="94dp" />
 
@@ -111,6 +113,7 @@
         android:textSize="16sp"
         tools:layout_editor_absoluteX="169dp"
         tools:layout_editor_absoluteY="38dp" />
+
     <EditText
         android:id="@+id/editTextTextPassword2"
         android:layout_width="wrap_content"
@@ -118,6 +121,7 @@
         android:ems="10"
         android:hint="Contraseña"
         android:inputType="textPassword"
+        android:minHeight="48dp"
         tools:layout_editor_absoluteX="101dp"
         tools:layout_editor_absoluteY="231dp" />
 
@@ -128,6 +132,7 @@
         android:ems="10"
         android:hint="Confirmar contraseña"
         android:inputType="textPassword"
+        android:minHeight="48dp"
         tools:layout_editor_absoluteX="100dp"
         tools:layout_editor_absoluteY="299dp" />
 
