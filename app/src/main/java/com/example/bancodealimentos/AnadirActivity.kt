@@ -3,9 +3,9 @@ package com.example.bancodealimentos
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class Carrito_Activity : AppCompatActivity() {
+class AnadirActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_carrito)
+        setContentView(R.layout.activity_anadir)
     }
 }

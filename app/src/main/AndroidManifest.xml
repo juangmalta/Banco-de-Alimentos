@@ -23,11 +23,6 @@
             android:name=".ElegirTarjeta_Activity"
             android:exported="false" />
         <activity
-            android:name=".Elegir_Tarjeta_Activity"
-            android:exported="false"
-            android:label="@string/title_activity_elegir_tarjeta"
-            android:theme="@style/Theme.BancoDeAlimentos.NoActionBar" />
-        <activity
             android:name=".MetodoPago_Activity"
             android:exported="false" />
         <activity
@@ -40,22 +35,16 @@
             android:name=".Donar_Activity"
             android:exported="false" />
         <activity
-            android:name=".Carrito_Activity"
+            android:name=".CarritoActivity"
             android:exported="false" />
         <activity
-            android:name=".anadir_Activity"
+            android:name=".AnadirActivity"
             android:exported="false" />
         <activity
-            android:name=".Inicio_Activity"
+            android:name=".LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".Login_Activity"
-            android:exported="false" />
-        <activity
-            android:name=".Registro_activity"
-            android:exported="false" />
-        <activity
-            android:name=".Registro_Activity\"
+            android:name=".RegistroActivity"
             android:exported="false" />
         <activity
             android:name=".Pagina_Inicio_Activity"
